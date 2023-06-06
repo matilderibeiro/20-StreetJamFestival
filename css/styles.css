@@ -11,3 +11,25 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.box-title {
+  height: 480px;
+  background-image: url(../img/photo-jambes-skateur.svg);
+  background-size: cover;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta {
+  color: black;
+  font-family: 'Vina Sans', cursive;
+  text-decoration: none;
+}
+
+.cta-green {
+  background-color: #5eff00;
+  padding: 10px 15px 10px 15px;
+  font-size: 35px;
