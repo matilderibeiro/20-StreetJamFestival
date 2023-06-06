@@ -33,3 +33,18 @@ img {
   background-color: #5eff00;
   padding: 10px 15px 10px 15px;
   font-size: 35px;
+}
+
+.cta-pink {
+  background-color: #ff0089;
+  padding: 10px 15px 10px 15px;
+  font-size: 35px;
+}
+
+.cta-black {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px 10px 15px;
+  font-size: 35px;
+}
+
