@@ -4,12 +4,14 @@ html {
   background-size: cover;
   background-attachment: fixed;
 }
+
 body {
   max-width: 375px;
   margin: auto;
   background: #fffcec;
   font-size: 18px;
   font-family: 'Yantramanav', sans-serif;
+  box-shadow: 0px 2px 19px 0px #000;
 }
 
 img {
@@ -148,10 +150,6 @@ h3 {
 
 .title-restaurant-pink {
   color: #ff0089;
-}
-
-.container-restaurant {
-  margin: 0 15px 15px 15px;
 }
 
 a {
