@@ -6,7 +6,7 @@ body {
   max-width: 375px;
   margin: auto;
   background: #fffcec;
-  font-size: 17px;
+  font-size: 18px;
   font-family: 'Yantramanav', sans-serif;
 }
 
@@ -28,17 +28,30 @@ img {
 
 .cta {
   color: black;
-  font-family: 'Vina Sans', cursive;
   text-decoration: none;
-  padding: 10px 15px 10px 15px;
-  font-size: 50px;
+  font-size: 40px;
 }
 
-.cta-green {
+.cta,
+h2,
+h3,
+.planning-hours,
+.restaurant-name {
+  font-family: 'Vina Sans', cursive;
+}
+
+p,
+.cta {
+  padding: 10px 15px 10px 15px;
+}
+
+.cta-green,
+.container-planning {
   background-color: #5eff00;
 }
 
-.cta-pink {
+.cta-pink,
+.container-restaurant{
   background-color: #ff0089;
 }
 
@@ -47,34 +60,62 @@ img {
   color: #fffcec;
 }
 
+.cta-green,
+.cta-pink,
+.cta-black {
+  transition: background-color 0.1s;
+}
+
+.cta-pink:active {
+  background-color: #ffa6d5;
+}
+
+.cta-green:active {
+  background-color: #b6ff8c;
+}
+
+.cta-black:active {
+  background-color: rgb(61, 61, 61);
+}
+
 h1 {
   margin: 0;
 }
 
 h2 {
-  font-family: 'Vina Sans', cursive;
-  font-size: 60px;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 40px;
+  color: #5eff00;
+  margin-top: 10px;
+  -webkit-text-stroke: 1px #000;
+}
+
+h2,
+h3 {
   padding: 0px 15px 0px 15px;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
-p {
-  padding: 10px 15px 10px 15px;
+.ariswald-portrait {
+  margin-bottom: 20px;
 }
 
-.container-planning {
-  background: #5eff00;
-}
-
-.planning-hours {
-  font-size: 50px;
+.planning-hours,
+.restaurant-name {
+  font-size: 40px;
   margin: 0;
-  font-family: 'Vina Sans', cursive;
+  padding-bottom: 0;
 }
 
-.activities {
-  font-size: 21px;
+.activities,
+.restaurant-description {
   margin: 0;
+  padding-top: 0;
 }
 
 .container-carousel-text {
@@ -103,7 +144,21 @@ p {
   }
 }
 
+.title-restaurant-pink {
+  color: #ff0089;
+}
+
+.container-restaurant {
+  margin: 0 15px 15px 15px;
+}
+
+a {
+  color: #fffcec;
+  text-decoration: none;
+}
+
 footer {
   background: #000;
   color: #fffcec;
+  padding: 5px 0 5px 0;
 }
