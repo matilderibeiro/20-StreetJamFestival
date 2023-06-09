@@ -1,6 +1,8 @@
 html {
-  background: #3f3f3f;
+  background-image: url(../img/fond-site-graffiti.jpg);
   scroll-behavior: smooth;
+  background-size: cover;
+  background-attachment: fixed;
 }
 body {
   max-width: 375px;
